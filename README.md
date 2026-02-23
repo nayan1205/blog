@@ -195,8 +195,8 @@ This project demonstrates:
 
 **Nayan**
 
-GitHub: https://github.com/yourusername
-Email: [your_email@gmail.com](mailto:your_email@gmail.com)
+GitHub: https://github.com/nayan1205
+Email: [nyngtm@gmail.com](mailto:nyngtm@gmail.com)
 
 ---
 
