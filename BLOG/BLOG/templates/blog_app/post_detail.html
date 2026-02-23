@@ -1,0 +1,70 @@
+{% extends 'blog_app/base.html' %}
+
+{% block title %}{{ post.title }} | My Blog{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <!-- Post Card -->
+    <div class="post-card">
+
+        <!-- Author section -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+
+            <!-- Left side: profile + username -->
+            <div style="display:flex; align-items:center; gap:10px;">
+                
+                <img class="rounded-circle"
+                     src="{{ post.author.profile.image.url }}"
+                     style="width:50px; height:50px; object-fit:cover;"
+                     alt="Profile">
+
+                <div>
+                    <a href="{% url 'user-posts' post.author.username %}">{{ post.author.username }}</a><br>
+                    <small style="color:gray;">
+                        {{ post.date_posted|date:"F d, Y" }}
+                    </small>
+                </div>
+
+            </div>
+
+            <!-- Right side: buttons -->
+            {% if user == post.author %}
+            <div>
+                <a href="{% url 'post-update' post.pk %}" 
+                   class="btn btn-outline-secondary btn-sm">
+                   Edit
+                </a>
+
+                <a href="{% url 'post-delete' post.pk %}" 
+                   class="btn btn-outline-danger btn-sm">
+                   Delete
+                </a>
+            </div>
+            {% endif %}
+
+        </div>
+
+        <!-- Title -->
+        <h2 style="margin-bottom:15px;">
+            {{ post.title }}
+        </h2>
+
+        <!-- Optional Post Image -->
+        {% if post.image %}
+            <img src="{{ post.image.url }}"
+                 style="width:100%; max-height:400px; object-fit:cover; margin-bottom:15px; border-radius:8px;">
+        {% endif %}
+
+        <!-- Full Content -->
+        <p style="line-height:1.6;">
+            {{ post.content }}
+        </p>
+
+    </div>
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Getting Started with Programming",
+    "content": "Programming is an essential skill in the modern digital world. It allows you to create software, websites, and applications that solve real problems. Beginners should start with simple languages like Python because of its readability and simplicity. Consistent practice, understanding logic, and building small projects will help develop strong programming fundamentals over time.",
+    "user_id": 1
+  },
+  {
+    "title": "Introduction to Java",
+    "content": "Java is a powerful, object-oriented programming language used worldwide in enterprise applications, Android development, and backend systems. Its platform independence allows programs to run on different devices using the Java Virtual Machine. Java also has strong community support, extensive libraries, and excellent performance, making it a reliable choice for professional software development.",
+    "user_id": 2
+  },
+  {
+    "title": "Benefits of Regular Exercise",
+    "content": "Regular exercise improves physical health, strengthens muscles, and increases stamina. It also helps reduce stress, anxiety, and depression by releasing endorphins. Exercise improves sleep quality, boosts confidence, and enhances overall mental well-being. Even simple activities like walking, jogging, or stretching daily can significantly improve long-term health and lifestyle quality.",
+    "user_id": 3
+  },
+  {
+    "title": "Learning Spring Boot",
+    "content": "Spring Boot simplifies Java application development by reducing configuration and setup time. It provides built-in tools, embedded servers, and production-ready features. Developers can focus more on business logic rather than infrastructure. Spring Boot is widely used for creating REST APIs and microservices, making it an essential framework for modern backend development.",
+    "user_id": 1
+  },
+  {
+    "title": "Understanding JSON",
+    "content": "JSON stands for JavaScript Object Notation and is widely used for data exchange between systems. It is lightweight, easy to read, and simple to parse. JSON uses key-value pairs and supports nested structures. It is commonly used in APIs, web applications, and configuration files due to its simplicity and universal compatibility.",
+    "user_id": 4
+  },
+  {
+    "title": "Web Development Basics",
+    "content": "Web development involves creating websites and web applications using technologies like HTML, CSS, and JavaScript. HTML structures the content, CSS styles the appearance, and JavaScript adds interactivity. Understanding these core technologies is essential before learning advanced frameworks. Practice and real-world projects help developers improve their skills and build professional websites.",
+    "user_id": 2
+  },
+  {
+    "title": "Database Fundamentals",
+    "content": "Databases store, organize, and manage data efficiently for applications. Relational databases use tables, rows, and columns to structure information. SQL is commonly used to interact with databases. Proper database design improves performance, scalability, and reliability. Understanding concepts like primary keys, relationships, and indexing is important for backend development.",
+    "user_id": 5
+  },
+  {
+    "title": "REST API Concepts",
+    "content": "REST APIs allow communication between client and server using standard HTTP methods like GET, POST, PUT, and DELETE. They are stateless and scalable. REST APIs are widely used in web and mobile applications. Proper API design improves performance, security, and usability while allowing seamless integration between different software systems.",
+    "user_id": 1
+  },
+  {
+    "title": "Importance of Clean Code",
+    "content": "Clean code improves readability, maintainability, and reduces bugs in software development. It uses meaningful variable names, proper structure, and consistent formatting. Clean code makes collaboration easier and helps developers understand and modify code efficiently. Writing clean code saves time, improves productivity, and enhances the overall quality of software projects.",
+    "user_id": 3
+  },
+  {
+    "title": "Version Control with Git",
+    "content": "Git is a version control system that helps developers track changes and collaborate on projects efficiently. It allows multiple developers to work on the same project without conflicts. Git provides features like branching, merging, and history tracking. Platforms like GitHub and GitLab use Git to manage and share code globally.",
+    "user_id": 4
+  },
+  {
+    "title": "Object-Oriented Programming",
+    "content": "Object-oriented programming organizes code using objects and classes. It improves code reusability and maintainability. Key concepts include inheritance, encapsulation, abstraction, and polymorphism. OOP makes complex systems easier to design and manage. Languages like Java, Python, and C++ use object-oriented principles extensively in software development.",
+    "user_id": 2
+  },
+  {
+    "title": "Frontend vs Backend",
+    "content": "Frontend development focuses on user interface and user experience using HTML, CSS, and JavaScript. Backend development handles server logic, databases, and APIs. Both work together to create complete applications. Understanding both frontend and backend improves development skills and helps build full-stack applications efficiently.",
+    "user_id": 5
+  },
+  {
+    "title": "Learning Python",
+    "content": "Python is a beginner-friendly programming language known for its simple syntax and versatility. It is widely used in data science, machine learning, web development, and automation. Python has a large community and many libraries. Learning Python opens many career opportunities in software development and emerging technologies.",
+    "user_id": 3
+  },
+  {
+    "title": "Cybersecurity Basics",
+    "content": "Cybersecurity protects systems, networks, and data from digital attacks and unauthorized access. It involves encryption, authentication, and secure coding practices. Understanding cybersecurity helps prevent data breaches and protects user information. As technology grows, cybersecurity becomes increasingly important for individuals and organizations.",
+    "user_id": 6
+  },
+  {
+    "title": "Cloud Computing Overview",
+    "content": "Cloud computing provides on-demand access to computing resources like storage, servers, and databases over the internet. It reduces infrastructure costs and improves scalability. Popular cloud providers include AWS, Azure, and Google Cloud. Cloud computing is essential for modern application deployment and digital transformation.",
+    "user_id": 4
+  },
+  {
+    "title": "Importance of Algorithms",
+    "content": "Algorithms provide step-by-step solutions to computational problems. Efficient algorithms improve performance and reduce resource usage. Understanding algorithms helps developers write optimized code. Common algorithms include sorting, searching, and recursion. Algorithms are fundamental in computer science and software engineering.",
+    "user_id": 2
+  },
+  {
+    "title": "Software Development Lifecycle",
+    "content": "The software development lifecycle includes planning, design, development, testing, deployment, and maintenance. Each phase ensures quality and reliability. Following SDLC improves project management and reduces errors. It helps teams deliver software efficiently and meet user requirements successfully.",
+    "user_id": 5
+  },
+  {
+    "title": "Debugging Techniques",
+    "content": "Debugging is the process of identifying and fixing errors in software. Developers use tools, logs, and testing to find issues. Understanding error messages and analyzing code logic helps fix bugs efficiently. Debugging improves software quality and ensures applications work correctly.",
+    "user_id": 1
+  },
+  {
+    "title": "Mobile App Development",
+    "content": "Mobile app development involves creating applications for smartphones and tablets. Developers use native languages like Java, Kotlin, or Swift, or cross-platform tools like Flutter. Mobile apps improve user accessibility and business reach. Learning mobile development opens many career opportunities.",
+    "user_id": 6
+  },
+  {
+    "title": "Future of Artificial Intelligence",
+    "content": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. AI is used in healthcare, finance, education, and automation. Machine learning allows systems to learn from data. AI will continue to shape the future of technology and human interaction.",
+    "user_id": 3
+  }
+]
