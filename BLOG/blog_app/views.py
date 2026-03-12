@@ -3,6 +3,33 @@ from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 from .models import Post
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.http import HttpResponse
+import random
+from faker import Faker
+
+def seed_data(request):
+
+    users = []
+
+    for _ in range(15):
+        username = fake.user_name()
+
+        if not User.objects.filter(username=username).exists():
+            user = User.objects.create_user(
+                username=username,
+                email=fake.email(),
+                password="password123"
+            )
+            users.append(user)
+
+    for _ in range(40):
+        Post.objects.create(
+            title=fake.sentence(nb_words=6),
+            content="\n\n".join(fake.paragraphs(nb=6)),
+            author=random.choice(users)
+        )
+
+    return HttpResponse("Fake users and posts created!")
 
 
 def home(request):
