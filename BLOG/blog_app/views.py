@@ -9,6 +9,8 @@ from faker import Faker
 
 def seed_data(request):
 
+    fake = Faker()
+
     users = []
 
     for _ in range(15):
